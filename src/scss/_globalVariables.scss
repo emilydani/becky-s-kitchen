@@ -1,0 +1,141 @@
+/**
+* Global variabls contain information
+* related styling of the application
+*/
+
+/**
+* Table of contents:
+*
+* 1. colors
+*
+* 2. fonts
+*
+* 3. Breakpoints
+*
+* 4. Grid Variables
+*
+* 5. Spacing
+*
+* 6. Z-Index
+*
+* 7. Box Shadow
+*
+* 8. Buttons
+*
+* 9. Footer
+*
+* 10. Border Radius
+*
+* 11. Nav
+*/
+
+// 1. color
+
+$thm-grey: #EFEFEF;
+$thm-black: #343434;
+$thm-white: #fff;
+
+$thm-dark-blue: #004972;
+$thm-light-blue: #077FB4;
+$thm-light-purple: #903D5C;
+$thm-dark-purple: #5F0829;
+
+// 2. Fonts
+
+$thm-font-primary: 'Open Sans', sans-serif;
+
+// Content Line Height
+$thm-content-line-height: 180%;
+
+// Font Size
+$thm-font-tiny: 12px;
+$thm-font-sml: 14px;
+$thm-font-med: 16px;
+$thm-font-medlrg: 18px;
+$thm-font-lrg: 24px;
+$thm-font-xlrg: 28px;
+$thm-font-ult: 32px;
+$thm-font-xult: 40px;
+
+// Font Size Map
+$thm-font-sizes: (
+    'tiny': $thm-font-tiny,
+    'sml': $thm-font-sml,
+    'med': $thm-font-med,
+    'medlrg': $thm-font-medlrg,
+    'lrg': $thm-font-lrg,
+    'xlrg': $thm-font-xlrg,
+    'ult': $thm-font-ult,
+    'xult': $thm-font-ult,
+);
+
+// 3. Breakpoints (subject to change)
+
+$thm-bp-tiny: 350px;
+$thm-bp-sml: 600px;
+$thm-bp-smlsml: 625px;
+$thm-bp-smlmed: 650px;
+$thm-bp-med: 800px;
+$thm-bp-medlrg: 925px;
+$thm-bp-lrg: 1024px;
+$thm-bp-lrgxlg: 1200px;
+$thm-bp-xlrg: 1280px;
+$thm-bp-ult: 1440px;
+
+// breakpoint map
+$thm-break-points: (
+	"tiny": $thm-bp-tiny,
+    "sml": $thm-bp-sml, 
+    "smlmed": $thm-bp-smlmed,
+    "med": $thm-bp-med, 
+    "medlrg": $thm-bp-medlrg,
+	"lrg": $thm-bp-lrg, 
+	"xlrg": $thm-bp-xlrg,
+	"ult": $thm-bp-ult,
+);
+
+// 4. Grid Variables
+
+$grid-columns: 12;
+$grid-gutter: 1rem;
+$grid-column-height: 40px;
+
+// 5. Spacing
+
+$thm-base-padding: 1rem;
+$thm-base-margin: 1rem;
+
+// 6. Z-index
+
+$thm-z-floor: 0;
+$thm-z-float: 10;
+$thm-z-alert: 80;
+$thm-z-ceiling: 100;
+
+// 7. Box Shadow
+$thm-bs-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$thm-bs-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$thm-bs-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+// 8. Buttons
+$thm-btn-padding: 1rem;
+$thm-btn-margin: .5rem;
+$thm-btn-font: $thm-font-primary;
+$thm-btn-font-size: 16px;
+$thm-btn-font-color: black;
+$thm-btn-font-weight: 500;
+$thm-btn-border-radius: 4px;
+$thm-btn-types: 'round' 'fluid' 'square';
+
+// // 9. Footer 
+// $footer-title-color: $thm-light;
+// $footer-bg-color: $thm-dark;
+// $footer-list-title-color: $thm-white;
+
+// 10. Border Radius
+$thm-base-border-radius: 15px;
+
+// 11. Nav
+$nav-background-color: $thm-white;
+$nav-link-color: $thm-black;
+$nav-link-border-color: $thm-black;

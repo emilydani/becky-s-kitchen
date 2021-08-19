@@ -1,0 +1,10 @@
+// Global Style
+@import "./scss/globalVariables";
+@import "./scss/reset";
+@import "./scss/functions";
+
+// Static Style
+@import "./ui/static/footer/footer";
+@import "./ui/static/nav/nav";
+@import "./ui/static/header/header";
+
