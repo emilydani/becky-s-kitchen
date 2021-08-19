@@ -1,6 +1,10 @@
-import React, { useContext, useEffect } from "react";
-// import HomeBanner from "./components/HomeBanner";
+import React from "react";
 import { Helmet } from "react-helmet";
+
+import HomeBanner from "./components/HomeBanner";
+import HomeFourSquare from "./components/HomeFourSquare";
+import HomeText from "./components/HomeText";
+
 
 function Home(props) {
 
@@ -14,9 +18,14 @@ function Home(props) {
           content=""
         />
       </Helmet>
-      {/* <HomeBanner /> */}
       
-      {/* <LocationComp /> */}
+      <HomeBanner />
+      <HomeText />
+      <HomeFourSquare />
+      <br>
+      </br>
+      <br></br>
+      
     </main>
   );
 }

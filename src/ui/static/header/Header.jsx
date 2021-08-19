@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "../nav/Nav";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo.png";
+// import logo from "../../../assets/logo.png";
 import logoText from "../../../assets/logo.png";
 function Header() {
   const [toggle, setToggle] = useState(false);

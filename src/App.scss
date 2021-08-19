@@ -8,3 +8,7 @@
 @import "./ui/static/nav/nav";
 @import "./ui/static/header/header";
 
+// Home
+@import "./ui/views/Home/home";
+@import "./ui/views/Home/components/homeBanner";
+@import "./ui/views/Home/components/homeFourSquare";

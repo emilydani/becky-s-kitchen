@@ -11,12 +11,12 @@ import Contact from '../ui/views/Contact/Contact';
 
 function Routes() {
 
-  function refreshPage() {
-    window.location.reload(true);
-    console.log("refresh complete")
-    window.location.reload(false);
-    console.log("refreshing was complete")
-  }
+  // function refreshPage() {
+  //   window.location.reload(true);
+  //   console.log("refresh complete")
+  //   window.location.reload(false);
+  //   console.log("refreshing was complete")
+  // }
   
   return (
           <Switch>
