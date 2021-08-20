@@ -56,6 +56,8 @@ $thm-font-lrg: 24px;
 $thm-font-xlrg: 28px;
 $thm-font-ult: 32px;
 $thm-font-xult: 40px;
+$thm-font-xxult: 55px;
+
 
 // Font Size Map
 $thm-font-sizes: (
@@ -66,7 +68,7 @@ $thm-font-sizes: (
     'lrg': $thm-font-lrg,
     'xlrg': $thm-font-xlrg,
     'ult': $thm-font-ult,
-    'xult': $thm-font-ult,
+    'xult': $thm-font-xult,
 );
 
 // 3. Breakpoints (subject to change)
@@ -139,6 +141,19 @@ $thm-btn-types: 'round' 'fluid' 'square';
 }
 .blue-button:hover {
     background-color: $thm-dark-blue;
+}
+.red-button {
+    background-color: $thm-light-purple;
+    color: $thm-white;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: .5rem 0;
+    width: 125px;
+    text-decoration: none;
+    text-align: center;
+}
+.red-button:hover {
+    background-color: $thm-dark-purple;
 }
 
 // // 9. Headings

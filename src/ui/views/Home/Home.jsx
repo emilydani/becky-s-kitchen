@@ -2,9 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import HomeBanner from "./components/HomeBanner";
+import HomeCall from "./components/HomeCall";
 import HomeFourSquare from "./components/HomeFourSquare";
 import HomeText from "./components/HomeText";
-
 
 function Home(props) {
 
@@ -22,6 +22,7 @@ function Home(props) {
       <HomeBanner />
       <HomeText />
       <HomeFourSquare />
+      <HomeCall />
       <br>
       </br>
       <br></br>
