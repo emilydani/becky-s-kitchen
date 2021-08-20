@@ -9,19 +9,20 @@
     z-index: -1;
     float: left;
     position: absolute;
-    top: 0;
-    left: 0;
+    // top: 0;
+    // left: 0;
 }
 
 .home__review-move-up{
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
 }
 .home__review-move-up h2 {
     color: $thm-white;
-    margin-top: $padding-between;
+    padding-top: $padding-between;
+    font-size: $thm-font-ult;
 }
 
 //grid

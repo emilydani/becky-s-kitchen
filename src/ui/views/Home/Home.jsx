@@ -25,10 +25,7 @@ function Home(props) {
       <HomeFourSquare />
       <HomeCall />
       <HomeReviews />
-      <br>
-      </br>
-      <br></br>
-      
+
     </main>
   );
 }

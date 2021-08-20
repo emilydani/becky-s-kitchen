@@ -3,6 +3,8 @@ import React from "react";
 export default function HomeReviews() {
 
   return (
+      <div>
+
     <div className="home__review-container">
         <div className="home__review-retangle"></div>
         <div className="container home__review-move-up">  
@@ -70,7 +72,8 @@ export default function HomeReviews() {
                 </div>  
             </div>    
         </div>
-    </div>
+    </div>      </div>
+
     
   );
 }

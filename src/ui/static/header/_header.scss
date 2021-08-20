@@ -1,4 +1,4 @@
-$header-base-height: 90px;
+$header-base-height: 80px;
 $header-icon-br: 45px;
 $header-icon-br-color: $thm-black;
 
@@ -33,6 +33,7 @@ $header-icon-br-color: $thm-black;
 
 .header__logo-icon {
     height: 80px;
+    padding: .4rem 0;
     margin-right: .75rem;
 }
 
