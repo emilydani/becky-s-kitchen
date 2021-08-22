@@ -146,9 +146,9 @@ $thm-btn-types: 'round' 'fluid' 'square';
     background-color: $thm-light-purple;
     color: $thm-white;
     border-radius: 4px;
-    padding: 0.5rem;
+    padding: .5rem 1.5rem;
     margin: .5rem 0;
-    width: 125px;
+    width: 150px;
     text-decoration: none;
     text-align: center;
 }
@@ -196,6 +196,13 @@ $padding-between: 60px;
 
 .blue-line {
     border-bottom:solid 3px $thm-light-blue;
+    padding-bottom: .5em;
+    width: 50px;
+}
+
+
+.red-line {
+    border-bottom:solid 3px $thm-light-purple;
     padding-bottom: .5em;
     width: 50px;
 }

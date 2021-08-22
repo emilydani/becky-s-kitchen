@@ -21,7 +21,7 @@ function Nav({ toggle, toggleNav }) {
         <li className="nav__item">
           <NavLink
             exact
-            to="/lunch"
+            to="/lunch-menu"
             className="nav__link"
             activeClassName="selected"
             onClick={toggleNav}
@@ -33,7 +33,7 @@ function Nav({ toggle, toggleNav }) {
         <li className="nav__item">
           <NavLink
             exact
-            to="/dinner"
+            to="/dinner-menu"
             className="nav__link"
             activeClassName="selected"
             onClick={toggleNav}
@@ -45,7 +45,7 @@ function Nav({ toggle, toggleNav }) {
         <li className="nav__item">
           <NavLink
             exact
-            to="/receptions"
+            to="/reception-food"
             className="nav__link"
             activeClassName="selected"
             onClick={toggleNav}

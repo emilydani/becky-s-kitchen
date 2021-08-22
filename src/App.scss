@@ -2,6 +2,9 @@
 @import "./scss/globalVariables";
 @import "./scss/reset";
 @import "./scss/functions";
+@import "./scss/foodBoxes";
+@import "./ui/views/Repeat/services";
+
 
 // Static Style
 @import "./ui/static/footer/footer";
@@ -14,3 +17,14 @@
 @import "./ui/views/Home/components/homeFourSquare";
 @import "./ui/views/Home/components/homeCall";
 @import "./ui/views/Home/components/homeReviews";
+
+// Lunch
+@import "./ui/views/Lunch/lunch";
+@import "./ui/views/Lunch/components/lunchBanner";
+@import "./ui/views/Lunch/components/lunchSoup";
+@import "./ui/views/Lunch/components/lunchSalad";
+@import "./ui/views/Lunch/components/lunchSand";
+@import "./ui/views/Lunch/components/lunchPlatter";
+@import "./ui/views/Lunch/components/lunchSide";
+@import "./ui/views/Lunch/components/lunchCall";
+@import "./ui/views/Lunch/components/lunchDessert";
