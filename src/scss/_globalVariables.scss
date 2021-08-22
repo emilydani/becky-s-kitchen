@@ -74,7 +74,7 @@ $thm-font-sizes: (
 // 3. Breakpoints (subject to change)
 
 $thm-bp-tiny: 350px;
-$thm-bp-sml: 600px;
+$thm-bp-sml: 625px;
 $thm-bp-smlsml: 625px;
 $thm-bp-smlmed: 650px;
 $thm-bp-med: 800px;
@@ -177,7 +177,7 @@ $nav-link-border-color: $thm-black;
 $padding-between: 60px;
 
 .container {
-    margin: 0 150px;
+    margin: 0 225px;
 }
 @media only screen and (max-width: 1125px) {
     .container {

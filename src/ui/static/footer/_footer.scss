@@ -29,15 +29,13 @@
 }
 
 .footer__dark-container a:hover {
-    opacity: 80%;
+    opacity: 70%;
 }
 
 //blue container
 .footer__blue-container{
     background-color: $thm-light-blue;
     padding: 0 4vh;
-
-
 }
 
 .footer__blue-container p {
@@ -52,8 +50,7 @@
         display: none;
     }
 
-}
-
-.re {
-    position: relative;
+    .footer__dark-container p{
+        text-align: center;
+    }
 }

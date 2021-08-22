@@ -3,11 +3,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
 }
 .services__grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.5fr 2fr;
     grid-gap: 25px;
     margin-bottom: $padding-between;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 725px) {
     .services__grid {
         grid-template-columns: 2fr;
         grid-template-rows: 2fr 2fr;
@@ -33,6 +33,7 @@
     }
     .services__img{
         grid-row: 2/3;
+        height: 325px;
     }
 
 }

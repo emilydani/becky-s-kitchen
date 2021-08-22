@@ -3,15 +3,15 @@ import lightLogo from "../../../assets/light-logo.png";
 
 function Footer(props) {
   return (
-    <div className="re">
+    <div>
         <div className="footer__dark-container">
           <div className="footer__flex">
             <img src={lightLogo} alt="Becky's Catering Kitchen" />
             <p>
               <a href="/">Home</a> | 
-              <a href="/lunch"> Lunch Menu</a> | 
-              <a href="/dinner"> Dinner Menu</a> |
-              <a href="/receptions"> Reception Food</a> | 
+              <a href="/lunch-menu"> Lunch Menu</a> | 
+              <a href="/dinner-menu"> Dinner Menu</a> |
+              <a href="/reception-food"> Reception Food</a> | 
               <a href="/drinks"> Drinks</a> | 
               <a href="/cheesecake"> Cheesecake</a> | 
               <a href="/contact"> Contact</a>
