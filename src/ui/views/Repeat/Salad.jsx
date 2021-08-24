@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LunchSalad() {
+export default function Salad() {
 
   return (
     
@@ -30,6 +30,22 @@ export default function LunchSalad() {
                 <p>Full Pan- $90, Serves 40-50 <br></br> Half Pan- $45, Serves 20-25</p>
             </div>
         </div>
+        <br></br>
+
+        <div className="food__two-grid">
+            <div className="food__two-grid-box">
+                <h3>Fresh Garden Salad</h3>
+                <div className="red-line"></div>
+                <p>
+                Delicious garden salad served with your choice of dressing: ranch, blue cheese, and Catalina. All dressings are homemade recipes. 
+                </p>
+                <p>
+                Full Pan- $60, Serves 40-50 <br></br>
+                Half Pan- $30, Serves 20-25
+                </p>
+            </div>
+        </div>
+        <br></br>
       
     </div>
   );

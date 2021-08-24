@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LunchSoup() {
+export default function Soup() {
 
   return (
     
@@ -9,7 +9,7 @@ export default function LunchSoup() {
         <div className="big-box">
             <div className="big-box__grid">
                 <div>
-                    <h3> Cream of Broccoli- $35 </h3>
+                    <h3>Cream of Broccoli- $35 </h3>
                     <h3>Chicken Noodle- $40 </h3>
                     <h3>Cheddar Broccoli- $40 </h3>
                     <h3>Sausage & Wild Rice- $40 </h3>

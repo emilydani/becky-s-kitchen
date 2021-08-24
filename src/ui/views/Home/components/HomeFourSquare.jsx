@@ -11,7 +11,7 @@ export default function HomeFourSquare() {
                 <h2>Lunch Menu</h2>
                 <div className="blue-line"></div>
                 <p>Sandwiches, soups, deli platers, fruit and veggie platers are all delicious lunch items. Give me a call and we'll design a menu for you.</p>
-                <a href="/lunch" className="blue-button">Learn More</a>
+                <a href="/lunch-menu" className="blue-button">Learn More</a>
             </div>
             <div className="home__four-square-lunch-img"></div>    
         </div>
@@ -20,7 +20,7 @@ export default function HomeFourSquare() {
                 <h2>Dinner Menu</h2>
                 <div className="blue-line"></div>
                 <p>From main dishes to desserts, we have it all. I will cater to your individual needs and providing a tasty dinner menu.</p>
-                <a href="/dinner" className="blue-button">Learn More</a>
+                <a href="/dinner-menu" className="blue-button">Learn More</a>
             </div>
             <div className="home__four-square-dinner-img"></div>    
         </div>
