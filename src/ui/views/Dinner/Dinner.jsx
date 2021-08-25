@@ -10,6 +10,7 @@ import DinnerText from "./components/DinnerText";
 import Soup from '../Repeat/Soup';
 import Salad from '../Repeat/Salad';
 import DinnerDessert from './components/DinnerDessert';
+import Services from '../Repeat/Services';
 
 export default function Dinner() {
   return (
@@ -31,6 +32,7 @@ export default function Dinner() {
         <Soup />
         <Salad />
         <DinnerDessert />
+        <Services />
 
       </div>               
   );
