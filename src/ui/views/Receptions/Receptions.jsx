@@ -2,9 +2,14 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 
 import RecepBanner from './components/RecepBanner';
+import RecepBrownies from './components/RecepBrownies';
+import RecepCake from './components/RecepCake';
+import RecepCookie from './components/RecepCookie';
+import RecepDessert from './components/RecepDessert';
 import RecepFruit from './components/RecepFruit';
 import RecepSavory from './components/RecepSavory';
 import RecepText from './components/RecepText';
+import Services from '../Repeat/Services';
 
 export default function Receptions() {
   return (
@@ -21,6 +26,11 @@ export default function Receptions() {
         <RecepText />
         <RecepSavory />
         <RecepFruit />
+        <RecepCookie />
+        <RecepCake />
+        <RecepBrownies />
+        <RecepDessert />
+        <Services />
 
       </div>               
   );
