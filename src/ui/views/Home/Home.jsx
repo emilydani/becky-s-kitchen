@@ -16,8 +16,10 @@ function Home(props) {
         <title>Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Any occasion is only as great as the food that is served! I will cater to your individual needs, providing a delicious menu that looks and tastes like it is made with love by your own personal chef."
         />
+        <meta name="keywords" content="dinner, party, wedding, food, Becky's Catering Kitchen, Rexburg, catering"/>
+
       </Helmet>
       
       <HomeBanner />

@@ -16,11 +16,13 @@ export default function Lunch() {
   return (
       <div>
         <Helmet>
-        <title>Dinner Menu | Becky's Catering Kitchen</title>
+        <title>Lunch Menu | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Let me take the stress out of your lunch party and create a tasty lunch menu—catered directly to your wants and needs. Along with offering lunch items like sandwiches, soups and salads, and fruit and veggie platers."
         />
+        <meta name="keywords" content="lunch, lunch-in, party, wedding, food, Becky's Catering Kitchen, Rexburg, catering"/>
+
       </Helmet>
 
         <LunchBanner />   

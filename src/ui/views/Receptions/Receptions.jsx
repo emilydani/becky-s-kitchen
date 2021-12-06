@@ -18,8 +18,9 @@ export default function Receptions() {
         <title>Reception Food | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="From savory food, to fruits and veggies, to decadent desserts, Becky's Catering Kitchen offers it all. These delicious reception food that will leave you wanting more."
         />
+        <meta name="keywords" content="reception, party, wedding, Becky's Catering Kitchen, Rexburg, catering, platter, dessert"/>
       </Helmet>
 
         <RecepBanner />

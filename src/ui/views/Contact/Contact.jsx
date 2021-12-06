@@ -12,8 +12,9 @@ export default function Contact() {
         <title>Contact Us | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Contact Becky's Catering Kitchen today and make your reservation for delicious, unforgetable food, located in Rexburg, Idaho."
         />
+        <meta name="keywords" content="contact, Rexburg, Becky's Catering Kitchen, catering, food"/>
       </Helmet>
 
         <ContactBanner />

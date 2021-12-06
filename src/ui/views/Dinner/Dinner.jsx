@@ -19,8 +19,9 @@ export default function Dinner() {
         <title>Dinner Menu | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Becky's Catering Kitchen offers delicious buffets, main meals, side dishes, soups, and desserts. I will cater to your individual needs, providing a delicious menu that looks and tastes like it is made with love by your own personal chef."
         />
+        <meta name="keywords" content="dinner, party, wedding, Becky's Catering Kitchen, Rexburg, catering, soup, dessert"/>
         </Helmet>
 
         <DinnerBanner />

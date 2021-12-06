@@ -11,8 +11,9 @@ export default function Drinks() {
         <title>Beverages | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Becky's Catering Kitchen offers tasty drinks that will quench any guest's thirst."
         />
+        <meta name="keywords" content="drinks, beverages, Becky's Catering Kitchen, Rexburg, catering"/>
       </Helmet>
         
         <DrinksBanner />

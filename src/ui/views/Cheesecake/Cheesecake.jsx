@@ -13,8 +13,9 @@ export default function Cheesecake() {
         <title>Cheesecakes | Becky's Catering Kitchen</title>
         <meta
           name="description"
-          content=""
+          content="Delicious, creamy cheesecakes that are baked slowly, to create a smooth, rich texture that will leave you wanting more."
         />
+       <meta name="keywords" content="cake, cheesecake, Becky's Catering Kitchen, Rexburg, Catering"/>
       </Helmet>
 
         <CakeBanner />

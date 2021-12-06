@@ -45,7 +45,7 @@ $thm-dark-purple: #5F0829;
 $thm-font-primary: 'Open Sans', sans-serif;
 
 // Content Line Height
-$thm-content-line-height: 180%;
+$thm-content-line-height: 190%;
 
 // Font Size
 $thm-font-tiny: 12px;
@@ -158,10 +158,10 @@ $thm-btn-types: 'round' 'fluid' 'square';
 
 // // 9. Headings
 h1, h2, h3, h4 {
-    font-weight: 300;
+    font-weight: lighter;
 }
 body{
-    font-weight: 300;
+    font-weight: lighter;
 }
 
 // 10. Border Radius
