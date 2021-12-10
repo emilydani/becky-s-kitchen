@@ -11,7 +11,7 @@ export default function DinnerText() {
         </p>
         <br></br>
         <div>
-            <a href="/cheesecake" className="red-button">Call Today!</a>
+            <a href="/contact" className="red-button">Call Today!</a>
         </div>
       
     </div>

@@ -1,5 +1,5 @@
 .services__img{
-    background-image: url(../../../assets/services.jpg);
+    background-image: url(../../../assets/home/call.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@
 }
 .services__grid {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 2.5fr 2fr;
     grid-gap: 25px;
     margin-bottom: $padding-between;
     align-items: center;
